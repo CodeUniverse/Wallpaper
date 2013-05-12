@@ -16,7 +16,7 @@
         android:layout_centerHorizontal="true"
         android:paddingBottom="10dp"
         android:paddingTop="5dp"
-        android:text="Wallpaper Tutorial"
+        android:text="@string/hello"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:textSize="25sp"
         android:typeface="serif" />
@@ -29,13 +29,6 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="169dp"
         android:padding="10dp" >
-
-        <Button
-            android:id="@+id/button1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:padding="10dp"
-            android:text="Open Wallpaper Selector" />
     </FrameLayout>
 
     <ImageView
@@ -58,7 +51,16 @@
             android:id="@+id/button2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Code Universe" />
+            android:text="@string/website" />
     </FrameLayout>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:padding="10dp"
+        android:text="@string/wallpaper_button" />
 
 </RelativeLayout>

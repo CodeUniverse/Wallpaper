@@ -73,14 +73,16 @@ public final class R {
     public static final class string {
         public static final int action_settings=0x7f080001;
         public static final int app_name=0x7f080000;
-        public static final int chooser_wallpaper=0x7f080003;
-        public static final int hello_world=0x7f080002;
+        public static final int chooser_wallpaper=0x7f080002;
+        public static final int hello=0x7f080007;
         /**  Option in "Select wallpaper from" dialog box 
          */
-        public static final int pick_wallpaper=0x7f080005;
+        public static final int pick_wallpaper=0x7f080004;
+        public static final int wallpaper_button=0x7f080005;
         /**  Button label on Wallpaper Gallery screen; user selects this button to set a specific wallpaper 
          */
-        public static final int wallpaper_instructions=0x7f080004;
+        public static final int wallpaper_instructions=0x7f080003;
+        public static final int website=0x7f080006;
     }
     public static final class style {
         /** 
